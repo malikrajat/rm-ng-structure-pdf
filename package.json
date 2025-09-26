@@ -1,0 +1,110 @@
+{
+  "name": "@codewithrajat/rm-ng-structure-pdf",
+  "version": "1.0.0",
+  "description": "Angular library for creating structured, searchable, and accessible PDFs from HTML content",
+  "keywords": [
+    "angular",
+    "pdf",
+    "export",
+    "html-to-pdf",
+    "structured-pdf",
+    "searchable-pdf",
+    "accessible-pdf",
+    "editable-pdf",
+    "client-side",
+    "typescript",
+    "jspdf",
+    "html2canvas",
+    "library",
+    "angular-library",
+    "component",
+    "directive",
+    "html-to-pdf",
+    "pdf-generator"
+  ],
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.rajatmalik.dev/"
+  },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/malikrajat/rm-ng-structure-pdf#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malikrajat/rm-ng-structure-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-ng-structure-pdf/issues",
+    "email": "mr.rajatmalik@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1"
+  },
+  "peerDependenciesMeta": {
+    "jspdf": {
+      "optional": false
+    },
+    "html2canvas": {
+      "optional": false
+    }
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "rm-ng-structure-pdf"
+    ]
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/codewithrajat"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "module": "fesm2022/codewithrajat-rm-ng-structure-pdf.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/codewithrajat-rm-ng-structure-pdf.mjs"
+    }
+  }
+}
