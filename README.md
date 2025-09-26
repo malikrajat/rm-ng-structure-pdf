@@ -424,22 +424,13 @@ npm start  # Serves test app on localhost:4200
 
 ```
 projects/
-├── @codewithrajat/rm-ng-structure-pdf/              # Library source code
+├── rm-ng-structure-pdf/              # Library source code
 │   ├── src/lib/         
 │   │   ├── pdf-service.ts
 │   │   └── pdf-options.types.ts
 │   └── public-api.ts
 └── pdf-structure/        # Test application
 ```
-
----
-
-## 📖 Documentation
-
-- [API Reference](docs/API.md)
-- [Migration Guide](docs/MIGRATION.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
-- [Examples Repository](https://github.com/malikrajat/rm-ng-structure-pdf-examples)
 
 ---
 
