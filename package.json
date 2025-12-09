@@ -1,26 +1,43 @@
 {
   "name": "@codewithrajat/rm-ng-structure-pdf",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Angular library for creating structured, searchable, and accessible PDFs from HTML content",
   "keywords": [
     "angular",
     "pdf",
     "export",
-    "html-to-pdf",
     "structured-pdf",
     "searchable-pdf",
     "accessible-pdf",
     "editable-pdf",
     "client-side",
-    "typescript",
     "jspdf",
     "html2canvas",
     "library",
-    "angular-library",
     "component",
     "directive",
+    "angular-library",
+    "angular-pdf",
+    "ngx",
+    "pdf-generator",
+    "pdf-creator",
+    "pdf-structure",
+    "pdf-builder",
+    "pdf-template",
+    "pdf-layout",
+    "pdf-export",
+    "pdf-document",
+    "document-generator",
+    "report-generator",
+    "dynamic-pdf",
+    "client-side-pdf",
+    "browser-pdf-generation",
     "html-to-pdf",
-    "pdf-generator"
+    "json-to-pdf",
+    "typescript",
+    "frontend-tools",
+    "npm-library",
+    "open-source"
   ],
   "author": {
     "name": "Rajat Malik",
@@ -39,23 +56,18 @@
       "email": "mr.rajatmalik@gmail.com"
     }
   ],
-  "license": "MIT",
   "homepage": "https://github.com/malikrajat/rm-ng-structure-pdf#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malikrajat/rm-ng-structure-pdf.git"
+    "url": "git+https://github.com/malikrajat/rm-ng-structure-pdf.git"
   },
   "bugs": {
     "url": "https://github.com/malikrajat/rm-ng-structure-pdf/issues",
     "email": "mr.rajatmalik@gmail.com"
   },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
   "peerDependencies": {
-    "@angular/common": ">=14.0.0",
-    "@angular/core": ">=14.0.0"
+    "@angular/common": ">=16.0.0 <21.0.0",
+    "@angular/core": ">=16.0.0 <21.0.0"
   },
   "dependencies": {
     "tslib": "^2.6.0",
@@ -70,19 +82,17 @@
       "optional": false
     }
   },
-  "sideEffects": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "ng-update": {
-    "packageGroup": [
-      "rm-ng-structure-pdf"
-    ]
-  },
   "funding": {
     "type": "individual",
-    "url": "https://github.com/sponsors/codewithrajat"
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "os": [
     "darwin",
@@ -96,6 +106,22 @@
   "ng-add": {
     "save": "dependencies"
   },
+  "ng-update": {
+    "packageGroup": [
+      "rm-ng-structure-pdf"
+    ]
+  },
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "packageManager": "pnpm@10.11.1",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md",
   "module": "fesm2022/codewithrajat-rm-ng-structure-pdf.mjs",
   "typings": "index.d.ts",
   "exports": {
