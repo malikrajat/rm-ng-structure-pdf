@@ -24,7 +24,7 @@ The current library, `@codewithrajat/rm-ng-structure-pdf`, is focused on advanci
 
 <div align="center">
   
-  <img src="https://github.com/malikrajat/rm-image-slider/blob/main/assets/export-csv.gif" alt="rm-ng-structure-pdf Demo" width="800"/>
+  <img src="https://github.com/malikrajat/rm-ng-structure-pdf/blob/main/assets/export-csv.gif" alt="rm-ng-structure-pdf Demo" width="800"/>
 
 </div>
 
