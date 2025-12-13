@@ -13,7 +13,7 @@
 
 ## Important Note
 
-If you need a stable, production-ready PDF generator for read-only documents, consider using [`@codewithrajat/rm-ng-structure-pdf`](https://www.npmjs.com/package/@codewithrajat/rm-ng-structure-pdf). 
+If you need a stable, production-ready PDF generator for read-only documents, consider using [`@codewithrajat/rm-ng-pdf-export`](https://www.npmjs.com/package/@codewithrajat/rm-ng-pdf-export). 
 
 The current library, `@codewithrajat/rm-ng-structure-pdf`, is focused on advancing the future of searchable, text-based PDF generation. While functional, it currently uses an image-slicing approach that may cut content at page boundaries. Future versions will implement intelligent content-aware page breaking.
 

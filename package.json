@@ -1,136 +1,49 @@
 {
-  "name": "@codewithrajat/rm-ng-structure-pdf",
+  "name": "rm-ng-structure-pdf-main",
   "version": "2.0.0",
-  "description": "Angular library for creating structured, searchable, and accessible PDFs from HTML content",
-  "keywords": [
-    "angular",
-    "pdf",
-    "export",
-    "structured-pdf",
-    "searchable-pdf",
-    "accessible-pdf",
-    "editable-pdf",
-    "client-side",
-    "jspdf",
-    "html2canvas",
-    "library",
-    "component",
-    "directive",
-    "angular-library",
-    "angular-pdf",
-    "ngx",
-    "pdf-generator",
-    "pdf-creator",
-    "pdf-structure",
-    "pdf-builder",
-    "pdf-template",
-    "pdf-layout",
-    "pdf-export",
-    "pdf-document",
-    "document-generator",
-    "report-generator",
-    "dynamic-pdf",
-    "client-side-pdf",
-    "browser-pdf-generation",
-    "html-to-pdf",
-    "json-to-pdf",
-    "typescript",
-    "frontend-tools",
-    "npm-library",
-    "open-source"
-  ],
-  "author": {
-    "name": "Rajat Malik",
-    "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.rajatmalik.dev/"
-  },
-  "contributors": [
-    {
-      "name": "Rajat Malik",
-      "email": "mr.rajatmalik@gmail.com"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "Rajat Malik",
-      "email": "mr.rajatmalik@gmail.com"
-    }
-  ],
-  "homepage": "https://github.com/malikrajat/rm-ng-structure-pdf#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/malikrajat/rm-ng-structure-pdf.git"
-  },
-  "bugs": {
-    "url": "https://github.com/malikrajat/rm-ng-structure-pdf/issues",
-    "email": "mr.rajatmalik@gmail.com"
-  },
-  "peerDependencies": {
-    "@angular/common": ">=16.0.0 <21.0.0",
-    "@angular/core": ">=16.0.0 <21.0.0"
-  },
-  "dependencies": {
-    "tslib": "^2.6.0",
-    "jspdf": "^2.5.1",
-    "html2canvas": "^1.4.1"
-  },
-  "peerDependenciesMeta": {
-    "jspdf": {
-      "optional": false
-    },
-    "html2canvas": {
-      "optional": false
-    }
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/sponsors/malikrajat"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
-  ],
-  "cpu": [
-    "x64",
-    "arm64"
-  ],
-  "ng-add": {
-    "save": "dependencies"
-  },
-  "ng-update": {
-    "packageGroup": [
-      "rm-ng-structure-pdf"
-    ]
-  },
-  "directories": {
-    "lib": "./src",
-    "doc": "./docs"
-  },
   "packageManager": "pnpm@10.11.1",
   "license": "MIT",
   "type": "module",
-  "sideEffects": false,
-  "private": false,
-  "preferGlobal": false,
-  "readme": "README.md",
-  "module": "fesm2022/codewithrajat-rm-ng-structure-pdf.mjs",
-  "typings": "index.d.ts",
-  "exports": {
-    "./package.json": {
-      "default": "./package.json"
-    },
-    ".": {
-      "types": "./index.d.ts",
-      "default": "./fesm2022/codewithrajat-rm-ng-structure-pdf.mjs"
-    }
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build  rm-ng-structure-pdf --configuration production && node copy-extra-files.js",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^21.0.0-next.0",
+    "@angular/compiler": "^21.0.0-next.0",
+    "@angular/core": "^21.0.0-next.0",
+    "@angular/forms": "^21.0.0-next.0",
+    "@angular/platform-browser": "^21.0.0-next.0",
+    "@angular/router": "^21.0.0-next.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.0.0-next.3",
+    "@angular/cli": "^21.0.0-next.0",
+    "@angular/compiler-cli": "^21.0.0-next.0",
+    "@types/jasmine": "~5.1.0",
+    "baseline-browser-mapping": "^2.9.4",
+    "fs-extra": "^11.3.2",
+    "ng-packagr": "^21.0.0-next.0",
+    "typescript": "~5.9.2"
   }
 }
