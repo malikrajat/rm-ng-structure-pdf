@@ -1,6 +1,6 @@
 {
   "name": "@codewithrajat/rm-ng-structure-pdf",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Angular library for creating structured, searchable, and accessible PDFs from HTML content",
   "keywords": [
     "angular",
